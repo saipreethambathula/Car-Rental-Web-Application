@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+.nav-it{
+  color: #ffffff;
+  font-family: "Bree Serif";
+}
+
+.wcu-section {
+  background-color: #f9fbfe;
+}
+.wcu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.wcu-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.wcu-card {
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+}
+.wcu-card-image {
+  width: 87px;
+  height: 90px;
+}
+.wcu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+.wcu-card-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.offers {
+  color: #323f4b;
+  font-style: italic;
+  font-weight: 600;
+}
+
+
+
+
+/*-----------------------------*/
+
+.book-head1{
+  font-size: 28px;
+}
+.book-head-logo{
+  font-size: 18px;
+}
+.card-book {
+  background-image: url('carp.jpg');
+  background-size: cover;
+  height: 90vh;
+}
+
+.book-button{
+  height: 45px;
+  width: 120px;
+  font-size: 18px;
+  background-color: transparent;
+  border-radius: 8px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  color: white ;
+}
+
+/*---------card-cards-------*/
+/*section3*/
+
+.cr-car-card{
+  background-color: rgba(0, 0, 0, 0.918);
+  border-radius: 8px;
+}
+.cr-car-card-title {
+  color: white;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.cr-car-card-description {
+  color: #b4c6da;
+  font-family: "Roboto";
+  font-size: 14px;
+  text-align: left;
+}
+
+.star-sticker{
+  font-size: 16px;
+  color: #FFD700;
+}
+.car-card-para{
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  margin-left: 5px;
+}
+
+.price-card{
+  padding-top: 12px;
+  font-weight: bold;;
+  color: white;
+}
+.price-card-s{
+  font-size: 14px;
+  margin-top: 10px
+}
+.cars-container{
+  background-image: url('car4.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+.special-span{
+  color: rgb(79, 204, 30);
+}
+
+/*------about  us ----------------------*/
+.about-us{
+  background-color: #222b36;
+  padding: 24px;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+.about-us-head{
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "caveat";
+  margin-bottom: 10px;
+}
+.about-us-para{
+  font-family: "Roboto";
+}
