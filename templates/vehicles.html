@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title %}Cars{% endblock title %}
+
+{%load static%}
+<link rel="stylesheet" href="{%static 'style.css'%}">
+
+{% block body %}
+ 
+
+<main role="main" style="background-color: rgb(200, 200, 200)">
+
+    <section class="jumbotron text-center" style="background-color: rgb(200, 200, 200)">
+      <div class="container">
+        <h1 class="jumbotron-heading" style="font-size:50px">Welcome {{request.user}} !!</h1>
+       <p style="font-size:25px; margin-top:30px">Get wide varieties of cars in affordable prices!!</p>
+        <p>
+          
+          
+        </p>
+      </div>
+    </section>
+ 
+    <div class="album py-5 bg-light" id="1">
+      <div class="container" id="2">
+        
+        <div class="row" id="3">
+          
+          {% for i in car %}
+          <div class="col-12 col-md-4">
+            <div class="cr-car-card  mb-3 shadow">
+                <img src="/media/{{i.image}}" class="d-block w-100 p-3" height="225" />
+                
+                <div class="p-3">
+                  <div class="d-flex flex-column justify-content-center">
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-star star-sticker"></i>
+                        <p class="car-card-para">4.2</p>
+                    </div>
+                </div>
+                  <h1 class="cr-car-card-title mt-1">{{i.car_name}}</h1>
+                  <p class="cr-car-card-description">
+                    {{i.car_desc}}
+                  </p>
+                  <div class="d-flex flex-row">
+                      <div>
+                          <p class="price-card">₹{{i.price}}/Hour</p>
+                      </div>
+                      <a href="\bill" class="ml-auto">
+                        <button class="btn btn-primary shadow m-2" >Rent Now</button>
+                      </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          
+          {%endfor%}
+          
+
+
+{% endblock body %}
+
+
+
